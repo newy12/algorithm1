@@ -1,5 +1,11 @@
 public class test4 {
     public static void main(String[] args) {
+
+
+        //내적
+
+
+
         int[] a = {1,2,3,4};
         int[] b = {-3,-1,0,2};
         int sum = 0;
