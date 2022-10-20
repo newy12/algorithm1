@@ -16,7 +16,7 @@ public class Test {
                 System.out.println("Base class  : {" + x + ", " + y + "}");
                 System.out.println("Base class  : {" + this.x + ", " + this.y + "}");
                 System.out.println("Super class: {" + super.x + ", " + super.y + "}");
-                //하
+                //주석지우기
             }
         }
 
