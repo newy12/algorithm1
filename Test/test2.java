@@ -1,3 +1,5 @@
+package Test;
+
 import java.util.stream.IntStream;
 
 public class test2 {
