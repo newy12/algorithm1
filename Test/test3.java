@@ -1,14 +1,10 @@
 package Test;
 
+/**
+ * 음양 더하기
+ */
 public class test3 {
     public static void main(String[] args) {
-
-
-        //음양 더하기
-
-
-
-
         /*int[] absolutes = {4,7,12};
         boolean[] signs = {true,false,true};*/
         int[] absolutes = {1,2,3};

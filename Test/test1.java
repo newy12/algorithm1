@@ -1,10 +1,12 @@
 package Test;
 
+/**
+ * 문자열에서 없는 알파벳 추출하기.
+ */
 public class test1 {
     
     public static void main(String[] args) {
 
-        //문자열에서 없는 알파벳 추출하기.
         //---------------------------------------------------------------------------------------------------------------------------------
         String sentence = "His comments came after Pyongyang announced it had a plan to fire four missiles near the US territory of Guam.";
         /*String sentence = "Jackdaws love my big sphinx of quartz";*/
