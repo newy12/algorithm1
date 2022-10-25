@@ -8,8 +8,8 @@ import java.util.Arrays;
 public class test6 {
 
     public static void main(String[] args) {
-        String[] answer = {"Kim","ddd"};
-        String value = "김서방은 "+Arrays.asList(answer).indexOf("Kim")+"에 있다";
-        System.out.println("value = " + value);//ㅇㅇ
+        String[] seoul = {"Jane","Kim"};
+        String value = "김서방은 "+Arrays.asList(seoul).indexOf("Kim")+"에 있다";
+        System.out.println("value = " + value);
     }
 }
