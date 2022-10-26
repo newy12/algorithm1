@@ -10,6 +10,8 @@ public class test8 {
         String a = "qwer";
 
         System.out.println("s.length()%2 = " + s.length()%2);
+        System.out.println("s.length()%2 = " + s.length()%2);
+        System.out.println("s.length()%2 = " + s.length()%2);
     }
     
 
