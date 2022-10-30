@@ -1,6 +1,5 @@
 package Test.Level1;
 
-import javax.lang.model.SourceVersion;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -35,7 +34,6 @@ public class test9 {
         map.put("seven","7");
         map.put("eight","8");
         map.put("nine","9");
-        StringBuilder sb = new StringBuilder();
         String s0 =  s.replaceAll(list.get(0),map.get(list.get(0)));
         String s1 = s0.replaceAll(list.get(1),map.get(list.get(1)));
         String s2 = s1.replaceAll(list.get(2),map.get(list.get(2)));
@@ -47,11 +45,9 @@ public class test9 {
         String s8 = s7.replaceAll(list.get(8),map.get(list.get(8)));
         String s9 = s8.replaceAll(list.get(9),map.get(list.get(9)));
         System.out.println("before " + s9);
+        int answer = Integer.parseInt(s9);
+        System.out.println("answer = " + answer);
 
-        for (int i = 0; i < 9; i++) {
-            sb.append(s.replaceAll(list.get(i),map.get(list.get(i))));
-        }
-        System.out.println("after = " + sb);
 
 
 /*
