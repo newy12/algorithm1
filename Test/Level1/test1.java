@@ -1,4 +1,4 @@
-package Test;
+package Test.Level1;
 
 /**
  * 문자열에서 없는 알파벳 추출하기.

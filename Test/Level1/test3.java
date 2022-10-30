@@ -1,4 +1,4 @@
-package Test;
+package Test.Level1;
 
 /**
  * 음양 더하기

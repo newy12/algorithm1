@@ -1,4 +1,4 @@
-package Test;
+package Test.Level1;
 /**
  * 가운데 글자 가져오기
  */
