@@ -16,7 +16,7 @@ public class test11 {
         if(x%(Integer.parseInt(String.valueOf(value))) == 0){
             System.out.println("true");
         }else{
-            System.out.println("false");//ㅇdddd
+            System.out.println("false");//ㅇddddㅇㅇ
         }
     }
 
