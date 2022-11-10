@@ -10,12 +10,12 @@ public class test11 {
         int value = 0;
 
         for (int i = 0; i < number.length(); i++) {
-           String  = String.valueOf(number.charAt(i));
+            String.valueOf(number.charAt(i));
         }
         System.out.println("sb = " + value);
         if(x%(Integer.parseInt(String.valueOf(value))) == 0){
-            System.out.println("true");
-        }else{ㅇㅇ
+            System.out.println("true");ㅇㅇㄷㅇㄷ
+        }else{
             System.out.println("false");//ㅇddddㅇㅇ
         }
     }
