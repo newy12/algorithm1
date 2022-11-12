@@ -15,7 +15,7 @@ public class test11 {
         System.out.println("sb = " + value);
         if(x%(Integer.parseInt(String.valueOf(value))) == 0){
             System.out.println("true");ㅇㅇㄷㅇㄷ
-        }else{
+        }else{//ㄴ
             System.out.println("false");//ㅇddddㅇㅇ
         }
     }
