@@ -5,7 +5,7 @@ package Test.Level1;
  */
 public class test11 {
     public static void main(String[] args) {
-        int x = 11;//ㅇㅇ
+        int x = 11;//ㅇ/
         String number = String.valueOf(x);
         int value = 0;
 
