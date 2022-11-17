@@ -13,7 +13,7 @@ public class test13 {
         System.out.println("num.charAt(0) = " + num.charAt(2));
 
         for (int i = 0; i < num.length(); i++) {
-        }
+        }//dd
         System.out.println("value = " + value);
     }
 
