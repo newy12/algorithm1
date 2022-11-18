@@ -17,7 +17,6 @@ public class test15 {
                continue;
             }
            price += 3;
-            sum += price;
         }
         if(sum > money){
             answer = sum-money;
