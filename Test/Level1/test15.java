@@ -5,25 +5,21 @@ package Test.Level1;
  */
 public class test15 {
     public static void main(String[] args) {
-        int price = 3;
-        int money = 20;
-        int count = 4;
+        int price = 1;
+        int money = 0;
+        int count = 1;
         long answer = 0;
-        int sum = 0;
+        long sum = 0;
 
-        for (int i = 0; i < count; i++) {
-            if(i == 0){
-               sum = price;
-               continue;
-            }
-           price += 3;
+        for (int i = 1; i <= count; i++) {
+            sum += price * i;
+            System.out.println("price : " + price * i);
+            System.out.println("sum : " + sum);
         }
-        if(sum > money){
             answer = sum-money;
             System.out.println("answer = " + answer);
-        }else{
-            answer = 0;
-            System.out.println("sum = " + answer);
+        if(sum < money){
+            System.out.println("answer = " + answer);
         }
     }
 
