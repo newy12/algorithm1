@@ -7,7 +7,7 @@ public class test16 {
     public static boolean main(String[] args) {
         String s = "1234";
         boolean answer = true;
-        String regExp = "^[0-9]{4}+$";
+        String regExp = "^[0-9]{4}+$";//dd
         String regExp2 = "^[0-9]{6}+$";//.ㅇㅇㅇㅇㅇd
         return s.matches(regExp) || s.matches(regExp2);
     }
